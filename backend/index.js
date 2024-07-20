@@ -408,13 +408,13 @@ app.delete('/deleteUser/:id', async (req, res) => {
 })
 
 // The default route for all other paths
-app.use((req, res) => {
-    res.status(404).send('404 - Not Found');
-});
+// app.use((req, res) => {
+//     res.status(404).send('404 - Not Found');
+// });
 
 
-app.listen(5000, () => {
-    console.log(`Server Started at ${5000}`)
+app.listen(5100, () => {
+    console.log(`Server Started at ${5100}`)
 })
 
 //ekhane api create hoeche database er sathe kotha bolar jonno
